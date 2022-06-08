@@ -1,0 +1,23 @@
+body{
+    background-image: url("https://opengameart.org/sites/default/files/bg_02_h.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.card {
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    height: auto;
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+    top: 6rem;
+}
+  
+.card img {
+    height: 60%;
+}
