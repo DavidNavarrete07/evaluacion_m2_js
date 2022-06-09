@@ -76,7 +76,7 @@ function gameOver() {
         </div>`;
     etiq_end_game.appendChild(container);
 }
-
+//Evento para capturar cuando se presione la tecla Enter
 input_word.addEventListener('keydown', function (e) {
     const entered_word = input_word.value;
     if (e.key === "Enter" || e.keyCode === 13) {
